@@ -1,6 +1,6 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
+import { Link, useLocation } from "react-router-dom";
 import { useMediaQuery } from "react-responsive";
-import MenuIcon from "@mui/icons-material/Menu";
 import MobileNavbar from "./MobileNavbar";
 
 function Navbar() {
@@ -12,26 +12,11 @@ function Navbar() {
       {!isLargerScreen && <MobileNavbar />}
       {isLargerScreen && (
         <ul className="nav-list">
-          <li>
-            <a className="nav-link" href="#">
-              Home
-            </a>
-          </li>
-          <li>
-            <a className="nav-link" href="about-me">
-              About Me
-            </a>
-          </li>
-          <li>
-            <a className="nav-link" href="#my-projects">
-              My Projects
-            </a>
-          </li>
-          <li>
-            <a className="nav-link" href="#contact">
-              Contact
-            </a>
-          </li>
+          <div className="links">
+            <Link to="/"> Home </Link>
+            <Link to="/projects"> Projects </Link>
+            <Link to="/experience"> Experience </Link>
+          </div>
         </ul>
       )}
     </div>
