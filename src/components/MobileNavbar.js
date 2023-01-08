@@ -4,6 +4,7 @@ import MenuIcon from "@mui/icons-material/Menu";
 import { IconButton } from "@mui/material";
 import Menu from "@mui/material/Menu";
 import MenuItem from "@mui/material/MenuItem";
+import "../styles/MobileNavbar.css";
 
 function MobileNavbar() {
   const [menuOpen, setMenuOpen] = useState(false);
@@ -17,10 +18,12 @@ function MobileNavbar() {
     setMenuOpen(false);
   };
   return (
-    <div>
-      MobileNavbar
+    <div className="mobile-nav">
       <IconButton>
-        <MenuIcon onClick={handleOpenNavMenu} />
+        <MenuIcon
+          sx={{ fontSize: "40px", color: "white" }}
+          onClick={handleOpenNavMenu}
+        />
       </IconButton>
       <Menu
         id="menu-appbar"
@@ -32,13 +35,22 @@ function MobileNavbar() {
         }}
       >
         <MenuItem>
-          <Link to="/"> Home </Link>
+          <Link to="/" className="mobile-link">
+            {" "}
+            Home{" "}
+          </Link>
         </MenuItem>
         <MenuItem>
-          <Link to="/projects"> Projects </Link>
+          <Link to="/projects" className="mobile-link">
+            {" "}
+            Projects{" "}
+          </Link>
         </MenuItem>
         <MenuItem>
-          <Link to="/experience"> Experience </Link>
+          <Link to="/experience" className="mobile-link">
+            {" "}
+            Experience{" "}
+          </Link>
         </MenuItem>
       </Menu>
     </div>
