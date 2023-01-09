@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 import LinkedInIcon from "@mui/icons-material/LinkedIn";
 import GitHubIcon from "@mui/icons-material/GitHub";
 import EmailIcon from "@mui/icons-material/Email";
@@ -6,12 +6,15 @@ import { Button, Link } from "@mui/material";
 import "../styles/Home.css";
 
 function Home() {
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
   return (
     <div className="home">
       <div className="about">
-        <h2> Hi, I am Serena</h2>
+        <h1> Hi, I am Serena Huang</h1>
         <div className="prompt">
-          <p>A passonate full-stack software engineer.</p>
+          <p>A passonate full-stack software engineer skilled in MERN stack.</p>
           <div className="icons">
             <a href="mailto:serena.huangdanting@gmail.com">
               <EmailIcon />

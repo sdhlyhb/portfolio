@@ -23,7 +23,10 @@
   justify-items: center;
   border: 2pt solid #9aafd9;
   border-radius: 20px;
-  animation: fadeIn 1s 1.2s backwards;
+  animation: fadeIn 2s;
+}
+.project-entry:hover {
+  border: 2.5pt solid #002b5b;
 }
 .project-img {
   margin-top: 10px;
@@ -31,6 +34,26 @@
   max-width: 500px;
   padding: 1px;
   position: relative;
+}
+.project-info a {
+  font-family: Verdana, Tahoma, sans-serif;
+  font-weight: 700;
+  font-size: 1.2rem;
+  /* text-decoration: none; */
+  color: #002b5b;
+  margin: 0 -0.55rem;
+  padding: 0 0.55rem;
+  transition: color 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+.project-github svg:hover {
+  width: 40px;
+  height: 40px;
+  color: #9adcff;
+}
+.project-title:hover {
+  box-shadow: inset 500px 0 0 0 #002b5b;
+  text-decoration: none;
+  color: white;
 }
 .project-info {
   width: 90%;

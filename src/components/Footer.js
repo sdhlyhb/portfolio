@@ -8,9 +8,9 @@ import "../styles/Footer.css";
 function Footer() {
   return (
     <div className="footer">
-      <span>
-        Serena Huang <CopyrightIcon /> 2023
-      </span>
+      <div className="copyright">
+        <span>Serena Huang</span> <CopyrightIcon /> <span>2023</span>
+      </div>
       <a href="https://github.com/sdhlyhb" target="_blank" rel="noreferrer">
         <GitHubIcon />
       </a>

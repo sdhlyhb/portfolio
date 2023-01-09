@@ -1,0 +1,32 @@
+.aboutme-container {
+  width: 80%;
+  height: calc(100vh - 10px);
+  display: flex;
+  margin-left: 10%;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: left;
+  color: #21325e;
+  animation: fadeIn 2s;
+  font-family: Arial, Helvetica, sans-serif;
+}
+h1 {
+  color: #6e85b7;
+  font-family: "Open Sans Condensed", sans-serif;
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 64px;
+  margin: 0 0 0;
+  padding: 20px 30px;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.bio {
+  line-height: 2;
+}
+
+.contact-btn {
+  text-decoration: none;
+}

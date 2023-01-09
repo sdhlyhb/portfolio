@@ -23,9 +23,9 @@ function Navbar() {
             Projects{" "}
           </Link>
 
-          <Link to="/experience" className="link">
+          <Link to="/about-me" className="link">
             {" "}
-            Experience{" "}
+            About Me{" "}
           </Link>
         </div>
       )}

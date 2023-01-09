@@ -1,8 +1,11 @@
-import React from "react";
+import React, { useEffect } from "react";
 import GitHubIcon from "@mui/icons-material/GitHub";
 import "../styles/Projects.css";
 
 function Projects() {
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
   return (
     <div className="projects">
       <div className="projects-container">
@@ -36,7 +39,8 @@ function Projects() {
             <div className="project-desc">
               An mobile-first web application that allows registered users to
               chat and share pets photos with friends in real-time. The shared
-              photos will be auto-expired and notify receiver download.
+              photos will be auto-expired and the sender will get notified if
+              receiver has downloaded the photos.
             </div>
             <div className="project-tech-stacks">
               <span className="project-tech">React</span>
@@ -72,11 +76,11 @@ function Projects() {
               rel="noopener noreferrer"
               target="_blank"
             >
-              MVP-JobTrckr
+              MVP-JobTrackr
             </a>
             <div className="project-desc">
               Solo fullstack project. A light-weight single-page web app that
-              allows autenticated users to track their job applications
+              allows authenticated users to track their job applications
               timelines, view metrics and download records in csv format
             </div>
             <div className="project-tech-stacks">

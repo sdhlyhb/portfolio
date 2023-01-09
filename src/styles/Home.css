@@ -19,11 +19,13 @@ html {
   text-align: center;
   background-color: #21325e;
   color: #f0f0f0;
+  animation: fadeIn 2s;
 }
 
 .about .prompt {
   width: 40%;
   font-size: 30px;
+  line-height: 1.6;
 }
 
 .skills-container {

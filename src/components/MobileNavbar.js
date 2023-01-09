@@ -34,22 +34,36 @@ function MobileNavbar() {
           display: { xs: "block", md: "none" },
         }}
       >
-        <MenuItem>
-          <Link to="/" className="mobile-link">
+        <MenuItem className="menu-item">
+          <Link
+            to="/"
+            className="mobile-link"
+            style={{ textDecoration: "none" }}
+          >
             {" "}
             Home{" "}
           </Link>
         </MenuItem>
-        <MenuItem>
-          <Link to="/projects" className="mobile-link">
+        <MenuItem className="menu-item">
+          <Link
+            to="/projects"
+            className="mobile-link"
+            style={{
+              textDecoration: "none",
+            }}
+          >
             {" "}
             Projects{" "}
           </Link>
         </MenuItem>
-        <MenuItem>
-          <Link to="/experience" className="mobile-link">
+        <MenuItem className="menu-item">
+          <Link
+            to="/about-me"
+            className="mobile-link"
+            style={{ textDecoration: "none" }}
+          >
             {" "}
-            Experience{" "}
+            About Me{" "}
           </Link>
         </MenuItem>
       </Menu>

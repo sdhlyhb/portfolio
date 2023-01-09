@@ -7,8 +7,18 @@
   align-items: center;
   flex-direction: row;
   padding-top: 10px;
-  margin-top: 200px;
+  margin-top: 150px;
   color: antiquewhite;
+}
+
+.copyright {
+  display: flex;
+  align-items: center;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+.copyright span {
+  margin-left: 5px;
+  margin-right: 5px;
 }
 
 .footer a {
