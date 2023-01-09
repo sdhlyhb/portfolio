@@ -1,0 +1,33 @@
+.home {
+  width: 100%;
+  align-items: center;
+  font-family: "Arial", sans-serif;
+  color: #3e497a;
+}
+
+.about {
+  width: 100%;
+  height: calc(100vh - 100px);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background-color: #21325e;
+  color: #f0f0f0;
+}
+
+.skills-container {
+  font-size: 35px;
+  width: 100vw;
+  display: grid;
+  justify-content: center;
+  grid-gap: 10px;
+  grid-template-columns: repeat(auto-fill, 160px);
+}
+
+.skills img {
+  height: 55px;
+  width: 55px;
+  margin: 10px;
+}
