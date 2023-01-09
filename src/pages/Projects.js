@@ -117,7 +117,9 @@ function Projects() {
             <div className="project-desc">
               Worked with 3 other frontend engineers in Agile enviroment to
               redesign and rebuild an outdated retail portal. I was responsible
-              for the Ratings and Reviews module
+              for the Ratings and Reviews module, which will allows users to
+              view, upvote, report, search, filter and sort reviews and also
+              post their ratings and reviews of the products.
             </div>
             <div className="project-tech-stacks">
               <span className="project-tech">React</span>
