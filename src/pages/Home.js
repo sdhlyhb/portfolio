@@ -2,6 +2,7 @@ import React from "react";
 import LinkedInIcon from "@mui/icons-material/LinkedIn";
 import GitHubIcon from "@mui/icons-material/GitHub";
 import EmailIcon from "@mui/icons-material/Email";
+import { Button, Link } from "@mui/material";
 import "../styles/Home.css";
 
 function Home() {
@@ -11,14 +12,34 @@ function Home() {
         <h2> Hi, I am Serena</h2>
         <div className="prompt">
           <p>A passonate full-stack software engineer.</p>
-          <LinkedInIcon />
-          <EmailIcon />
-          <GitHubIcon />
+          <div className="icons">
+            <a href="mailto:serena.huangdanting@gmail.com">
+              <EmailIcon />
+            </a>
+            <a
+              href="https://github.com/sdhlyhb"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <GitHubIcon />
+            </a>
+
+            <a
+              href="https://www.linkedin.com/in/dantinghuang/"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <LinkedInIcon />
+            </a>
+          </div>
+          <a href="#skills-div">
+            <Button variant="contained">Check out my skills!</Button>
+          </a>
         </div>
       </div>
       <div className="skills">
         <h1> Skills and Tools</h1>
-        <div className="skills-container">
+        <div className="skills-container" id="skills-div">
           <img
             alt="javascript-svg"
             src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg"

@@ -1,3 +1,7 @@
+html {
+  scroll-behavior: smooth;
+}
+
 .home {
   width: 100%;
   align-items: center;
@@ -7,7 +11,7 @@
 
 .about {
   width: 100%;
-  height: calc(100vh - 100px);
+  height: calc(100vh - 10px);
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -17,9 +21,14 @@
   color: #f0f0f0;
 }
 
+.about .prompt {
+  width: 40%;
+  font-size: 30px;
+}
+
 .skills-container {
   font-size: 35px;
-  width: 100vw;
+  width: 100%;
   display: grid;
   justify-content: center;
   grid-gap: 10px;
@@ -30,4 +39,24 @@
   height: 55px;
   width: 55px;
   margin: 10px;
+}
+
+.icons {
+  display: flex;
+  justify-content: center;
+}
+
+.icons a {
+  color: whitesmoke;
+  margin-left: 30px;
+  text-decoration: none;
+}
+
+icons a :hover {
+  cursor: pointer;
+}
+
+.prompt a {
+  margin-left: 30px;
+  text-decoration: none;
 }
