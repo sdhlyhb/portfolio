@@ -1,0 +1,12 @@
+.page-not-found-container {
+  width: 80%;
+  height: calc(100vh - 10px);
+  display: flex;
+  margin-left: 10%;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: left;
+  color: #21325e;
+  font-family: Arial, Helvetica, sans-serif;
+}
