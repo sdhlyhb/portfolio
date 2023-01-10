@@ -1,7 +1,6 @@
-import React, { useState, useEffect } from "react";
+import React, { useEffect } from "react";
 import { Button, Link, Tooltip } from "@mui/material";
 import SchoolIcon from "@mui/icons-material/School";
-import CollectionsIcon from "@mui/icons-material/Collections";
 import "../styles/AboutMe.css";
 
 function AboutMe() {
