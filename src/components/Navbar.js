@@ -13,7 +13,7 @@ function Navbar() {
       {!isLargerScreen && <MobileNavbar />}
       {isLargerScreen && (
         <div className="links-container">
-          <Link to="/" className="link">
+          <Link to="/portfolio" className="link">
             {" "}
             Home{" "}
           </Link>

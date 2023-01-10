@@ -37,7 +37,7 @@ function MobileNavbar() {
       >
         <MenuItem className="menu-item">
           <Link
-            to="/"
+            to="/portfolio"
             className="mobile-link"
             style={{ textDecoration: "none" }}
           >
