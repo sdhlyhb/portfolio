@@ -33,11 +33,11 @@ function AboutMe() {
       </div>
       <br />
       <div className="bio">
-        When I'm not coding, I enjoy cooking and traveling. Unlike doing wet lab
-        experiments, you will hardly get any negative results from cooking... as
-        long as the food is edible. <span>&#128514;</span>
+        When I&apos;m not coding, I enjoy cooking and traveling. Unlike doing
+        wet lab experiments, you will hardly get any negative results from
+        cooking... as long as the food is edible. <span>&#128514;</span>
       </div>
-      <h3>Let's get in touch</h3>
+      <h3>Let&apos;s get in touch</h3>
       <a className="contact-btn" href="mailto:serena.huangdanting@gmail.com">
         <Button variant="contained">Contact Me</Button>
       </a>
